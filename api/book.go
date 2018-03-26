@@ -68,7 +68,9 @@ func BookHandleFunc(w http.ResponseWriter, r *http.Request) {
 		} else {
 			w.WriteHeader(http.StatusNotFound)
 		}
-
+	case http.MethodDelete:
+		DeleteBook(isbn)
+		w.WriteHeader(http.StatusOK)
 	}
 }
 
@@ -103,6 +105,10 @@ func UpdateBook(isbn string, book Book) bool {
 		books[isbn] = book
 	}
 	return exists
+}
+
+func DeleteBook(isbn string) {
+	delete(books, isbn)
 }
 
 func writeJSON(w http.ResponseWriter, i interface{}) {

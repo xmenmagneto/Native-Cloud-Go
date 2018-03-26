@@ -10,3 +10,4 @@ func EchoHandleFunc(w http.ResponseWriter, r *http.Request) {
 	w.Header().Add("Content-Type", "text/plain")
 	fmt.Fprintf(w, message)
 }
+
