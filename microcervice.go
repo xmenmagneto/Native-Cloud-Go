@@ -9,7 +9,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", index)
-	http.HandleFunc("/api/echo", echo)
+	http.HandleFunc("/api/echo", api.EchoHandleFunc)
 
 	http.HandleFunc("/api/books", api.BooksHandleFunc)
 	http.ListenAndServe(port(), nil)
@@ -28,8 +28,3 @@ func index(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Hello Cloud Native Go.")
 }
 
-func echo(w http.ResponseWriter, r *http.Request) {
-	message := r.URL.Query()["message"][0]
-	w.Header().Add("Content-Type", "text/plain")
-	fmt.Fprintf(w, message)
-}
