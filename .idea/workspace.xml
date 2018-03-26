@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8a34015-13af-492b-b49a-c0291722280c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/api/book.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/api/book_test.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Intro to Cloud Native With Go" afterPath="$PROJECT_DIR$/Intro to Cloud Native With Go" />
+      <change beforePath="$PROJECT_DIR$/api/book.go" afterPath="$PROJECT_DIR$/api/book.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,13 +27,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="book.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/book.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="-18">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="e#13#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/book_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="e#13#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,6 +80,7 @@
       <list>
         <option value="$PROJECT_DIR$/microcervice.go" />
         <option value="$PROJECT_DIR$/api/book.go" />
+        <option value="$PROJECT_DIR$/api/book_test.go" />
       </list>
     </option>
   </component>
@@ -107,6 +120,11 @@
             <path>
               <item name="Intro to Cloud Native With Go" type="b2602c69:ProjectViewProjectNode" />
               <item name="Intro to Cloud Native With Go" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intro to Cloud Native With Go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intro to Cloud Native With Go" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,12 +267,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522077442336</updated>
-      <workItem from="1522077443988" duration="2008000" />
+      <workItem from="1522077443988" duration="2601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2008000" />
+    <option name="totallyTimeSpent" value="2601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="538" y="23" width="739" height="709" extended-state="0" />
@@ -327,10 +345,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/book.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="-18">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="e#13#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/book_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#13#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
