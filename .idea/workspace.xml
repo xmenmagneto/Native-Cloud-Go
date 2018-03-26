@@ -18,11 +18,21 @@
       <file leaf-file-name="book.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/book.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="59" column="45" lean-forward="false" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+            <state relative-caret-position="66">
+              <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
               <folding>
                 <element signature="e#13#65#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="url.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/net/url/url.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="337" column="4" lean-forward="false" selection-start-line="337" selection-start-column="4" selection-end-line="337" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -290,12 +300,12 @@
       <updated>1522077442336</updated>
       <workItem from="1522077443988" duration="2868000" />
       <workItem from="1522082251362" duration="26000" />
-      <workItem from="1522082332148" duration="2835000" />
+      <workItem from="1522082332148" duration="3380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5729000" />
+    <option name="totallyTimeSpent" value="6274000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="518" y="23" width="884" height="709" extended-state="0" />
@@ -310,7 +320,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1742671" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.008313539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -381,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/net/url/url.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="803" column="21" lean-forward="true" selection-start-line="803" selection-start-column="21" selection-end-line="803" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/net/http/request.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -439,10 +442,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/go/src/net/url/url.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="337" column="4" lean-forward="false" selection-start-line="337" selection-start-column="4" selection-end-line="337" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/book.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="59" column="45" lean-forward="false" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+        <state relative-caret-position="66">
+          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
           <folding>
             <element signature="e#13#65#0" expanded="true" />
           </folding>

@@ -84,6 +84,11 @@ func CreateBook(book Book) (string, bool) {
 	return book.ISBN, true
 }
 
+func GetBook(isbn string) (Book, bool) {
+	book, found := books[isbn]
+	return book, found
+}
+
 func writeJSON(w http.ResponseWriter, i interface{}) {
 	b, err := json.Marshal(i)
 	if err != nil {
@@ -96,5 +101,16 @@ func writeJSON(w http.ResponseWriter, i interface{}) {
 // BookHandleFunc to be used as http.HandleFunc for Book API
 func BookHandleFunc(w http.ResponseWriter, r *http.Request) {
 	//implement logic for /api/book/<isbn>
+	isbn := r.URL.Path[len("/api/books/"):]
+
+	switch method := r.Method; method {
+	case http.MethodGet:
+		book, found := GetBook(isbn)
+		if found {
+			writeJSON(w, book)
+		} else {
+			w.WriteHeader(http.StatusNotFound)
+		}
+	}
 }
 
