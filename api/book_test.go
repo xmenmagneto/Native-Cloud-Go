@@ -18,5 +18,10 @@ func TestBookToJSON(t *testing.T) {
 }
 
 func TestBookFromJSON(t *testing.T) {
+	json := []byte(`{"Title":"Cloud Native Go","Author":"M.-L. Reimer","ISBN":"0123456789"}`)
+	book := FromJSON(json)
+
+	assert.Equal(t, Book{Title:  "Cloud Native Go", Author: "M.-L. Reimer", ISBN:   "0123456789",},
+	book, "Book JSON unmarshalling wrong")
 
 }
