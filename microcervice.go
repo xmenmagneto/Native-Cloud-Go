@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-	"github.com/xmenmagneto/Cloud-Native-With-Go/api"
+	"github.com/xmenmagneto/Cloud-Native-Go/api"
 )
 
 func main() {
