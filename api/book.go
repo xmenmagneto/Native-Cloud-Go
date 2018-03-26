@@ -11,6 +11,7 @@ type Book struct {
 	Title string `json:"title"`
 	Author string `json:"author"`
 	ISBN string `json:"isbn"`
+	Description string `json:"description,omitempty"`
 }
 
 // ToJSON to be used for marshalling of Book type
@@ -32,20 +33,34 @@ func FromJSON(data []byte) Book {
 	return book
 }
 
-// Books slice of all known books
-var Books = []Book{
-	Book{Title: "The Hitchhiker's Guide to the Galaxy", Author: "Douglas Adams", ISBN: "0345391802"},
-	Book{Title: "Cloud Native Go", Author: "M.-Leander Reimer", ISBN: "0000000000"},
+var books = map[string]Book{
+	"0345391802": Book{Title: "The Hitchhiker's Guide to the Galaxy", Author: "Douglas Adams", ISBN: "0345391802"},
+	"0000000000": Book{Title: "Cloud Native Go", Author: "M.-Leander Reimer", ISBN: "0000000000"},
 }
 
 // BooksHandleFun to be used as http.HandleFunc for Book API
 func BooksHandleFunc(w http.ResponseWriter, r *http.Request) {
-	b, err := json.Marshal(Books)
-	if err != nil {
-		panic(err)
+	//implement logic or /api/books
+	switch method := r.Method; method {
+	case http.MethodGet:
+		books := AllBooks()
+		writeJSON(w, books)
+	default:
+		w.WriteHeader(http.StatusBadRequest)
+		w.Write([]byte("Unsupported request method."))
 	}
+}
 
-	w.Header().Add("Content-Type", "application/json; charset=utf-8")
-	w.Write(b)
+func AllBooks() []Book {
+
+}
+
+func WriteJSON(w http.ResponseWriter, i interface()) {
+
+}
+
+// BookHandleFunc to be used as http.HandleFunc for Book API
+func BookHandleFunc(w http.ResponseWriter, r *http.Request) {
+	//implement logic for /api/book/<isbn>
 }
 
