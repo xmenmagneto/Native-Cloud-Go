@@ -61,7 +61,7 @@ func AllBooks() []Book {
 	return values
 }
 
-func WriteJSON(w http.ResponseWriter, i interface{}) {
+func writeJSON(w http.ResponseWriter, i interface{}) {
 	b, err := json.Marshal(i)
 	if err != nil {
 		panic(err)
