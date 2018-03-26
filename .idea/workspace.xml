@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8a34015-13af-492b-b49a-c0291722280c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Cloud-Native-With-Go" afterPath="$PROJECT_DIR$/Cloud-Native-With-Go" />
       <change beforePath="$PROJECT_DIR$/api/book.go" afterPath="$PROJECT_DIR$/api/book.go" />
     </list>
@@ -18,8 +17,8 @@
       <file leaf-file-name="book.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/book.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+            <state relative-caret-position="387">
+              <caret line="102" column="19" lean-forward="false" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
               <folding>
                 <element signature="e#13#65#0" expanded="true" />
               </folding>
@@ -300,12 +299,12 @@
       <updated>1522077442336</updated>
       <workItem from="1522077443988" duration="2868000" />
       <workItem from="1522082251362" duration="26000" />
-      <workItem from="1522082332148" duration="3380000" />
+      <workItem from="1522082332148" duration="3777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6274000" />
+    <option name="totallyTimeSpent" value="6671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="518" y="23" width="884" height="709" extended-state="0" />
@@ -452,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/book.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="84" column="1" lean-forward="true" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+        <state relative-caret-position="387">
+          <caret line="102" column="19" lean-forward="false" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
           <folding>
             <element signature="e#13#65#0" expanded="true" />
           </folding>
