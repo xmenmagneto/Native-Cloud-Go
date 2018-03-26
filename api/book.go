@@ -32,8 +32,20 @@ func FromJSON(data []byte) Book {
 	return book
 }
 
+// Books slice of all known books
+var Books = []Book{
+	Book{Title: "The Hitchhiker's Guide to the Galaxy", Author: "Douglas Adams", ISBN: "0345391802"},
+	Book{Title: "Cloud Native Go", Author: "M.-Leander Reimer", ISBN: "0000000000"},
+}
+
 // BooksHandleFun to be used as http.HandleFunc for Book API
 func BooksHandleFunc(w http.ResponseWriter, r *http.Request) {
+	b, err := json.Marshal(Books)
+	if err != nil {
+		panic(err)
+	}
 
+	w.Header().Add("Content-Type", "application/json; charset=utf-8")
+	w.Write(b)
 }
 
